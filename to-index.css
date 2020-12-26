@@ -41,3 +41,11 @@ button{
     border-radius: 0;
     color: white;
 }
+
+input:invalid:focus{
+    background-color: rgb(226, 48, 48);
+}
+
+input:valid:focus{
+    background-color: rgb(43, 194, 43)
+}
