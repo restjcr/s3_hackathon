@@ -1,0 +1,29 @@
+input:valid:focus{
+    background-color: rgb(43, 194, 43)
+}
+
+input:invalid:focus{
+    background-color: rgb(226, 48, 48);
+}
+
+label{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    border: 1px solid black;
+    padding: 20px 0;
+}
+
+input{
+    margin-left: 10px;
+}
+
+button{
+    margin-left: 180px;
+}

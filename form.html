@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="to-form.css">
+</head>
+<body>
+    <form action="#">
+        
+        <label for="nom">Nombre:<input type="text" name="nom" id="nom" required pattern="[a-zA-Z]+"></label>
+        
+        <label for="ape">Apellido:<input type="text" name="ape" id="ape" required pattern="[a-zA-Z]+"></label>
+        
+        <label for="edad">Edad:<input type="number" name="edad" id="edad" required min="18" max="80"></label>
+        
+        <label for="sexo">Sexo:
+            <input type="radio" name="sexo" required> Mujer
+            <input type="radio" name="sexo" required> Hombre
+            <input type="radio" name="sexo" required> Otro
+        </label>
+        
+        <label for="dni">DNI:<input type="text" name="dni" id="dni" required pattern="[a-zA-Z0-9]+" minlength="8"></label>
+        
+        <label for="email">Email:<input type="email" name="email" id="email" required></label>
+        
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
